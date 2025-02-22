@@ -1,0 +1,68 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<STMLbox item = "IDW_ItemDescription">
+		<ScreenID>ItemDescription</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>true</Style_VScroll>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<Style_Border>true</Style_Border>
+	</STMLbox>
+
+	<Button item = "IDW_IconButton">
+		<ScreenID>IconButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>58</LeftAnchorOffset>
+		<TopAnchorOffset>12</TopAnchorOffset>
+		<RightAnchorOffset>26</RightAnchorOffset>
+		<BottomAnchorOffset>44</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>A_SpellIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>32</CX>
+			<CY>32</CY>
+		</DecalSize>
+	</Button>
+
+	<Screen item = "ItemDisplayWindow">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>400</CX>
+			<CY>190</CY>
+		</Size>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>IDW_ItemDescription</Pieces>
+		<Pieces>IDW_IconButton</Pieces>
+	</Screen>
+
+</XML>

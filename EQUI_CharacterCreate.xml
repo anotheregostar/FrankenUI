@@ -1,0 +1,3151 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!-- RACE buttons -->
+	<Button item = "CC0_Race0_Button">
+		<ScreenID>CC0_Race0_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Barbarian</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race1_Button">
+		<ScreenID>CC0_Race1_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Dark Elf</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race2_Button">
+		<ScreenID>CC0_Race2_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Dwarf</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race3_Button">
+		<ScreenID>CC0_Race3_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Erudite</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race4_Button">
+		<ScreenID>CC0_Race4_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>132</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Gnome</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race5_Button">
+		<ScreenID>CC0_Race5_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>164</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Half Elf</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race6_Button">
+		<ScreenID>CC0_Race6_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>196</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Halfling</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race7_Button">
+		<ScreenID>CC0_Race7_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>228</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>High Elf</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race8_Button">
+		<ScreenID>CC0_Race8_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Human</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race9_Button">
+		<ScreenID>CC0_Race9_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>292</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Iksar</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race10_Button">
+		<ScreenID>CC0_Race10_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>324</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Ogre</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race11_Button">
+		<ScreenID>CC0_Race11_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>356</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Troll</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race12_Button">
+		<ScreenID>CC0_Race12_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>388</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Vah Shir</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Race13_Button">
+		<ScreenID>CC0_Race13_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>420</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference/>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Race_Radios</RadioGroup>
+		<Text>Wood Elf</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- CLASS buttons -->
+	<Button item = "CC0_Class0_Button">
+		<ScreenID>CC0_Class0_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Bard</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class1_Button">
+		<ScreenID>CC0_Class1_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Beastlord</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class2_Button">
+		<ScreenID>CC0_Class2_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Cleric</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class3_Button">
+		<ScreenID>CC0_Class3_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Druid</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class4_Button">
+		<ScreenID>CC0_Class4_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>132</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Enchanter</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class5_Button">
+		<ScreenID>CC0_Class5_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>164</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Magician</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class6_Button">
+		<ScreenID>CC0_Class6_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>196</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Monk</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class7_Button">
+		<ScreenID>CC0_Class7_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>228</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Necromancer</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class8_Button">
+		<ScreenID>CC0_Class8_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Paladin</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class9_Button">
+		<ScreenID>CC0_Class9_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>292</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Ranger</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class10_Button">
+		<ScreenID>CC0_Class10_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>324</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Rogue</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class11_Button">
+		<ScreenID>CC0_Class11_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>356</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>ShadowKnight</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class12_Button">
+		<ScreenID>CC0_Class12_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>388</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Shaman</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class13_Button">
+		<ScreenID>CC0_Class13_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>420</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Warrior</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Class14_Button">
+		<ScreenID>CC0_Class14_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>134</X>
+			<Y>452</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Class_Radios</RadioGroup>
+		<Text>Wizard</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- RACE AND CLASS subwindow -->
+	<Screen item = "CharacterCreationScreen0a">
+		<ScreenID>CharacterCreationScreen0a</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>274</CX>
+			<CY>508</CY>
+		</Size>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>Race and Class</Text>
+		<Pieces>CC0_Race0_Button</Pieces>
+		<Pieces>CC0_Race1_Button</Pieces>
+		<Pieces>CC0_Race2_Button</Pieces>
+		<Pieces>CC0_Race3_Button</Pieces>
+		<Pieces>CC0_Race4_Button</Pieces>
+		<Pieces>CC0_Race5_Button</Pieces>
+		<Pieces>CC0_Race6_Button</Pieces>
+		<Pieces>CC0_Race7_Button</Pieces>
+		<Pieces>CC0_Race8_Button</Pieces>
+		<Pieces>CC0_Race9_Button</Pieces>
+		<Pieces>CC0_Race10_Button</Pieces>
+		<Pieces>CC0_Race11_Button</Pieces>
+		<Pieces>CC0_Race12_Button</Pieces>
+		<Pieces>CC0_Race13_Button</Pieces>
+		<Pieces>CC0_Class0_Button</Pieces>
+		<Pieces>CC0_Class1_Button</Pieces>
+		<Pieces>CC0_Class2_Button</Pieces>
+		<Pieces>CC0_Class3_Button</Pieces>
+		<Pieces>CC0_Class4_Button</Pieces>
+		<Pieces>CC0_Class5_Button</Pieces>
+		<Pieces>CC0_Class6_Button</Pieces>
+		<Pieces>CC0_Class7_Button</Pieces>
+		<Pieces>CC0_Class8_Button</Pieces>
+		<Pieces>CC0_Class9_Button</Pieces>
+		<Pieces>CC0_Class10_Button</Pieces>
+		<Pieces>CC0_Class11_Button</Pieces>
+		<Pieces>CC0_Class12_Button</Pieces>
+		<Pieces>CC0_Class13_Button</Pieces>
+		<Pieces>CC0_Class14_Button</Pieces>
+	</Screen>
+
+<!-- points left -->
+
+	<Button item = "CC0_Points_Left_Button">
+		<ScreenID>CC0_Points_Left_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to take back all of your starting stat choices</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>POINTS LEFT</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Points_Left_Display_Button">
+		<ScreenID>CC0_Points_Left_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- strength -->
+
+	<Button item = "CC0_Stat0_Button">
+		<ScreenID>CC0_Stat0_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to place as many points as possible into Strength</TooltipReference>
+		<Text>STRENGTH</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat0_Display_Button">
+		<ScreenID>CC0_Stat0_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC0_Stat0_Up_Button">
+		<ScreenID>CC0_Stat0_Up_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_PlusBtnNormal</Normal>
+			<Pressed>A_PlusBtnPressed</Pressed>
+			<Flyby>A_PlusBtnFlyby</Flyby>
+			<Disabled>A_PlusBtnDisabled</Disabled>
+			<PressedFlyby>A_PlusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat0_Down_Button">
+		<ScreenID>CC0_Stat0_Down_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>60</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_MinusBtnNormal</Normal>
+			<Pressed>A_MinusBtnPressed</Pressed>
+			<Flyby>A_MinusBtnFlyby</Flyby>
+			<Disabled>A_MinusBtnDisabled</Disabled>
+			<PressedFlyby>A_MinusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- stamina -->
+
+	<Button item = "CC0_Stat1_Button">
+		<ScreenID>CC0_Stat1_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to place as many points as possible into Stamina</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>STAMINA</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat1_Display_Button">
+		<ScreenID>CC0_Stat1_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat1_Up_Button">
+		<ScreenID>CC0_Stat1_Up_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_PlusBtnNormal</Normal>
+			<Pressed>A_PlusBtnPressed</Pressed>
+			<Flyby>A_PlusBtnFlyby</Flyby>
+			<Disabled>A_PlusBtnDisabled</Disabled>
+			<PressedFlyby>A_PlusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat1_Down_Button">
+		<ScreenID>CC0_Stat1_Down_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>96</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_MinusBtnNormal</Normal>
+			<Pressed>A_MinusBtnPressed</Pressed>
+			<Flyby>A_MinusBtnFlyby</Flyby>
+			<Disabled>A_MinusBtnDisabled</Disabled>
+			<PressedFlyby>A_MinusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- agility -->
+
+	<Button item = "CC0_Stat2_Button">
+		<ScreenID>CC0_Stat2_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>116</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to place as many points as possible into Agility</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>AGILITY</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat2_Display_Button">
+		<ScreenID>CC0_Stat2_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>116</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat2_Up_Button">
+		<ScreenID>CC0_Stat2_Up_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>116</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_PlusBtnNormal</Normal>
+			<Pressed>A_PlusBtnPressed</Pressed>
+			<Flyby>A_PlusBtnFlyby</Flyby>
+			<Disabled>A_PlusBtnDisabled</Disabled>
+			<PressedFlyby>A_PlusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat2_Down_Button">
+		<ScreenID>CC0_Stat2_Down_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>132</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_MinusBtnNormal</Normal>
+			<Pressed>A_MinusBtnPressed</Pressed>
+			<Flyby>A_MinusBtnFlyby</Flyby>
+			<Disabled>A_MinusBtnDisabled</Disabled>
+			<PressedFlyby>A_MinusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- dexterity -->
+
+	<Button item = "CC0_Stat3_Button">
+		<ScreenID>CC0_Stat3_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>152</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to place as many points as possible into Dexterity</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>DEXTERITY</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat3_Display_Button">
+		<ScreenID>CC0_Stat3_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>152</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat3_Up_Button">
+		<ScreenID>CC0_Stat3_Up_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>152</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_PlusBtnNormal</Normal>
+			<Pressed>A_PlusBtnPressed</Pressed>
+			<Flyby>A_PlusBtnFlyby</Flyby>
+			<Disabled>A_PlusBtnDisabled</Disabled>
+			<PressedFlyby>A_PlusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat3_Down_Button">
+		<ScreenID>CC0_Stat3_Down_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>168</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_MinusBtnNormal</Normal>
+			<Pressed>A_MinusBtnPressed</Pressed>
+			<Flyby>A_MinusBtnFlyby</Flyby>
+			<Disabled>A_MinusBtnDisabled</Disabled>
+			<PressedFlyby>A_MinusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- wisdom -->
+
+	<Button item = "CC0_Stat4_Button">
+		<ScreenID>CC0_Stat4_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>188</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to place as many points as possible into Wisdom</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>WISDOM</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat4_Display_Button">
+		<ScreenID>CC0_Stat4_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>188</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat4_Up_Button">
+		<ScreenID>CC0_Stat4_Up_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>188</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_PlusBtnNormal</Normal>
+			<Pressed>A_PlusBtnPressed</Pressed>
+			<Flyby>A_PlusBtnFlyby</Flyby>
+			<Disabled>A_PlusBtnDisabled</Disabled>
+			<PressedFlyby>A_PlusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat4_Down_Button">
+		<ScreenID>CC0_Stat4_Down_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>204</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_MinusBtnNormal</Normal>
+			<Pressed>A_MinusBtnPressed</Pressed>
+			<Flyby>A_MinusBtnFlyby</Flyby>
+			<Disabled>A_MinusBtnDisabled</Disabled>
+			<PressedFlyby>A_MinusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- intelligence -->
+
+	<Button item = "CC0_Stat5_Button">
+		<ScreenID>CC0_Stat5_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>224</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to place as many points as possible into Intelligence</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>INTELLIGENCE</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat5_Display_Button">
+		<ScreenID>CC0_Stat5_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>224</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat5_Up_Button">
+		<ScreenID>CC0_Stat5_Up_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>224</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_PlusBtnNormal</Normal>
+			<Pressed>A_PlusBtnPressed</Pressed>
+			<Flyby>A_PlusBtnFlyby</Flyby>
+			<Disabled>A_PlusBtnDisabled</Disabled>
+			<PressedFlyby>A_PlusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat5_Down_Button">
+		<ScreenID>CC0_Stat5_Down_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>240</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_MinusBtnNormal</Normal>
+			<Pressed>A_MinusBtnPressed</Pressed>
+			<Flyby>A_MinusBtnFlyby</Flyby>
+			<Disabled>A_MinusBtnDisabled</Disabled>
+			<PressedFlyby>A_MinusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- charisma -->
+
+	<Button item = "CC0_Stat6_Button">
+		<ScreenID>CC0_Stat6_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to place as many points as possible into Charisma</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>CHARISMA</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat6_Display_Button">
+		<ScreenID>CC0_Stat6_Display_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+ 		<Location>
+			<X>136</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat6_Up_Button">
+		<ScreenID>CC0_Stat6_Up_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_PlusBtnNormal</Normal>
+			<Pressed>A_PlusBtnPressed</Pressed>
+			<Flyby>A_PlusBtnFlyby</Flyby>
+			<Disabled>A_PlusBtnDisabled</Disabled>
+			<PressedFlyby>A_PlusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Stat6_Down_Button">
+		<ScreenID>CC0_Stat6_Down_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>172</X>
+			<Y>276</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_MinusBtnNormal</Normal>
+			<Pressed>A_MinusBtnPressed</Pressed>
+			<Flyby>A_MinusBtnFlyby</Flyby>
+			<Disabled>A_MinusBtnDisabled</Disabled>
+			<PressedFlyby>A_MinusBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- CHARACTER CREATION screen -->
+
+	<Screen item = "CharacterCreationScreen0b">
+		<ScreenID>CharacterCreationScreen0b</ScreenID>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>472</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>197</CX>
+			<CY>320</CY>
+		</Size>	
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Text>Abilities</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Pieces>CC0_Points_Left_Button</Pieces>
+		<Pieces>CC0_Points_Left_Display_Button</Pieces>
+		<Pieces>CC0_Stat0_Up_Button</Pieces>
+		<Pieces>CC0_Stat0_Down_Button</Pieces>
+		<Pieces>CC0_Stat0_Button</Pieces>
+		<Pieces>CC0_Stat0_Display_Button</Pieces>
+		<Pieces>CC0_Stat1_Up_Button</Pieces>
+		<Pieces>CC0_Stat1_Down_Button</Pieces>
+		<Pieces>CC0_Stat1_Button</Pieces>
+		<Pieces>CC0_Stat1_Display_Button</Pieces>
+		<Pieces>CC0_Stat2_Up_Button</Pieces>
+		<Pieces>CC0_Stat2_Down_Button</Pieces>
+		<Pieces>CC0_Stat2_Button</Pieces>
+		<Pieces>CC0_Stat2_Display_Button</Pieces>
+		<Pieces>CC0_Stat3_Up_Button</Pieces>
+		<Pieces>CC0_Stat3_Down_Button</Pieces>
+		<Pieces>CC0_Stat3_Button</Pieces>
+		<Pieces>CC0_Stat3_Display_Button</Pieces>
+		<Pieces>CC0_Stat4_Up_Button</Pieces>
+		<Pieces>CC0_Stat4_Down_Button</Pieces>
+		<Pieces>CC0_Stat4_Button</Pieces>
+		<Pieces>CC0_Stat4_Display_Button</Pieces>
+		<Pieces>CC0_Stat5_Up_Button</Pieces>
+		<Pieces>CC0_Stat5_Down_Button</Pieces>
+		<Pieces>CC0_Stat5_Button</Pieces>
+		<Pieces>CC0_Stat5_Display_Button</Pieces>
+		<Pieces>CC0_Stat6_Up_Button</Pieces>
+		<Pieces>CC0_Stat6_Down_Button</Pieces>
+		<Pieces>CC0_Stat6_Button</Pieces>
+		<Pieces>CC0_Stat6_Display_Button</Pieces>
+	</Screen>
+
+<!-- name -->
+
+	<Editbox item = "CC0_NameInput">
+		<ScreenID>CC0_NameInput</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_Border>true</Style_Border>
+		<Location>
+			<X>8</X>
+			<Y>16</Y>
+		</Location>
+		<Size>
+			<CX>136</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+	</Editbox>
+
+	<Button item = "CC0_Get_Name_Button">
+		<ScreenID>CC0_Get_Name_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>152</X>
+			<Y>16</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to have a random name chosen for you</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Get Name</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC0_Face_Button">
+		<ScreenID>CC0_Face_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>56</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Click to choose your character's appearance</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Set Face</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Male_Button">
+		<ScreenID>CC0_Male_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>80</X>
+			<Y>56</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Sex_Radios</RadioGroup>
+		<Text>Male</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC0_Female_Button">
+		<ScreenID>CC0_Female_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>152</X>
+			<Y>56</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC0_Sex_Radios</RadioGroup>
+		<Text>Female</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- CHARACTER CREATION screen -->
+
+	<Screen item = "CharacterCreationScreen0c">
+		<ScreenID>CharacterCreationScreen0c</ScreenID>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>210</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>232</CX>
+			<CY>116</CY>
+		</Size>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Text>Character Creation</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Pieces>CC0_NameInput</Pieces>
+		<Pieces>CC0_Get_Name_Button</Pieces>
+		<Pieces>CC0_Face_Button</Pieces>
+		<Pieces>CC0_Female_Button</Pieces>
+		<Pieces>CC0_Male_Button</Pieces>
+	</Screen>
+
+<!-- COMBINED CHARACTER CREATION SCREEN 0 -->
+
+	<Screen item = "CharacterCreationScreen0">
+		<ScreenID>CharacterCreationScreen0</ScreenID>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>640</CX>
+			<CY>440</CY>
+		</Size>
+		<Style_Transparent>true</Style_Transparent>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>CharacterCreationScreen0a</Pieces>
+		<Pieces>CharacterCreationScreen0b</Pieces>
+		<Pieces>CharacterCreationScreen0c</Pieces>
+	</Screen>
+
+<!-- deity screen -->
+
+	<Button item = "CC1_Deity0_Button">
+		<ScreenID>CC1_Deity0_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>Agnostic</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC1_Deity1_Button">
+		<ScreenID>CC1_Deity1_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Plaguebringer</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC1_Deity2_Button">
+		<ScreenID>CC1_Deity2_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The King Of Thieves</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC1_Deity3_Button">
+		<ScreenID>CC1_Deity3_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Faceless</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "CC1_Deity4_Button">
+		<ScreenID>CC1_Deity4_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>132</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Prince Of Hate</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity5_Button">
+		<ScreenID>CC1_Deity5_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>164</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Rainkeeper</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity6_Button">
+		<ScreenID>CC1_Deity6_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>196</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Queen Of Love</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity7_Button">
+		<ScreenID>CC1_Deity7_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>228</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Lightbearer</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity8_Button">
+		<ScreenID>CC1_Deity8_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Prime Healer</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity9_Button">
+		<ScreenID>CC1_Deity9_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Oceanlord</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity10_Button">
+		<ScreenID>CC1_Deity10_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Tranquil</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity11_Button">
+		<ScreenID>CC1_Deity11_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Burning Prince</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity12_Button">
+		<ScreenID>CC1_Deity12_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>132</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Duke Of Below</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity13_Button">
+		<ScreenID>CC1_Deity13_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>164</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Six Hammers</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity14_Button">
+		<ScreenID>CC1_Deity14_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>196</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Mother Of All</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity15_Button">
+		<ScreenID>CC1_Deity15_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>228</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Wurmqueen</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+	<Button item = "CC1_Deity16_Button">
+		<ScreenID>CC1_Deity16_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>133</X>
+			<Y>260</Y>
+		</Location>
+		<Size>
+			<CX>128</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC1_Deity_Radios</RadioGroup>
+		<Text>The Warlord</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BigBtnNormal</Normal>
+			<Pressed>A_BigBtnPressed</Pressed>
+			<Flyby>A_BigBtnFlyby</Flyby>
+			<Disabled>A_BigBtnDisabled</Disabled>
+			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- deity description -->
+
+	<STMLbox item = "CC1_DeityDescription">
+		<ScreenID>CC1_DeityDescription</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>true</Style_VScroll>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>269</LeftAnchorOffset>
+		<TopAnchorOffset>4</TopAnchorOffset>
+		<RightAnchorOffset>8</RightAnchorOffset>
+		<BottomAnchorOffset>8</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Style_Border>true</Style_Border>
+	</STMLbox>
+
+<!-- DEITY SCREEN -->
+
+	<Screen item = "CharacterCreationScreen1">
+		<ScreenID>CharacterCreationScreen1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>640</CX>
+			<CY>320</CY>
+		</Size>
+		<Text>CHOOSE A DEITY</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>CC1_Deity0_Button</Pieces>
+		<Pieces>CC1_Deity1_Button</Pieces>
+		<Pieces>CC1_Deity2_Button</Pieces>
+		<Pieces>CC1_Deity3_Button</Pieces>
+		<Pieces>CC1_Deity4_Button</Pieces>
+		<Pieces>CC1_Deity5_Button</Pieces>
+		<Pieces>CC1_Deity6_Button</Pieces>
+		<Pieces>CC1_Deity7_Button</Pieces>
+		<Pieces>CC1_Deity8_Button</Pieces>
+		<Pieces>CC1_Deity9_Button</Pieces>
+		<Pieces>CC1_Deity10_Button</Pieces>
+		<Pieces>CC1_Deity11_Button</Pieces>
+		<Pieces>CC1_Deity12_Button</Pieces>
+		<Pieces>CC1_Deity13_Button</Pieces>
+		<Pieces>CC1_Deity14_Button</Pieces>
+		<Pieces>CC1_Deity15_Button</Pieces>
+		<Pieces>CC1_Deity16_Button</Pieces>
+		<Pieces>CC1_DeityDescription</Pieces>
+	</Screen>
+
+<!-- starting city -->
+
+<!-- ANTONICA -->
+
+	<StaticText item ="CC2_AntonicaLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>ANTONICA</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
+
+	<Button item = "CC2_City4_Button">
+		<ScreenID>CC2_City4_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>48</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Freeport</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City6_Button">
+		<ScreenID>CC2_City6_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>82</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Grobb</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City2_Button">
+		<ScreenID>CC2_City2_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>116</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Halas</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City5_Button">
+		<ScreenID>CC2_City5_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>150</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Neriak</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City7_Button">
+		<ScreenID>CC2_City7_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>184</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Oggok</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City1_Button">
+		<ScreenID>CC2_City1_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>218</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Qeynos</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City3_Button">
+		<ScreenID>CC2_City3_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>32</X>
+			<Y>252</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Rivervale</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+<!-- FAYDWER -->
+
+	<StaticText item ="CC2_FaydwerLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>144</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>FAYDWER</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
+
+	<Button item = "CC2_City11_Button">
+		<ScreenID>CC2_City11_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>144</X>
+			<Y>48</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Akanon</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City10_Button">
+		<ScreenID>CC2_City10_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>144</X>
+			<Y>82</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Felwithe</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City8_Button">
+		<ScreenID>CC2_City8_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>144</X>
+			<Y>116</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Kaladim</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "CC2_City9_Button">
+		<ScreenID>CC2_City9_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>144</X>
+			<Y>150</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Kelethin</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- ODUS -->
+
+	<StaticText item ="CC2_OdusLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>ODUS</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
+
+	<Button item = "CC2_City0_Button">
+		<ScreenID>CC2_City0_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>256</X>
+			<Y>48</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Erudin</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+<!-- KUNARK -->
+
+	<StaticText item ="CC2_KunarkLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>368</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>KUNARK</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
+    
+	<Button item = "CC2_City12_Button">
+		<ScreenID>CC2_City12_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>368</X>
+			<Y>48</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Cabilis</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+<!-- LUCLIN -->
+
+	<StaticText item ="CC2_LuclinLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>480</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>LUCLIN</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
+    
+	<Button item = "CC2_City13_Button">
+		<ScreenID>CC2_City13_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>480</X>
+			<Y>48</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<RadioGroup>CC2_City_Radios</RadioGroup>
+		<Text>Sharvahl</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- redundant maps -->
+
+	<StaticAnimation item = "CC2_Map1">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Animation>A_StartingCityMap01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "CC2_Map2">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Animation>A_StartingCityMap01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "CC2_Map3">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Animation>A_StartingCityMap01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "CC2_Map4">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Animation>A_StartingCityMap01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "CC2_Map5">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Animation>A_StartingCityMap01</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "CC2_Map6">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Animation>A_StartingCityMap01</Animation>
+	</StaticAnimation>
+
+<!-- city description -->
+
+	<STMLbox item = "CC2_CityText">
+		<ScreenID>CC2_CityText</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>false</Style_VScroll>
+		<Location>
+			<X>32</X>
+			<Y>304</Y>
+		</Location>
+		<Size>
+			<CX>512</CX>
+			<CY>48</CY>
+		</Size>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Style_Border>true</Style_Border>
+	</STMLbox>
+
+	<Screen item = "CharacterCreationScreen2">
+		<ScreenID>CharacterCreationScreen2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>640</CX>
+			<CY>480</CY>
+		</Size>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Text>Choose a Starting City</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+
+		<Pieces>CC2_AntonicaLabel</Pieces>
+		<Pieces>CC2_FaydwerLabel</Pieces>
+		<Pieces>CC2_OdusLabel</Pieces>
+		<Pieces>CC2_KunarkLabel</Pieces>
+		<Pieces>CC2_LuclinLabel</Pieces>
+
+		<Pieces>CC2_City0_Button</Pieces>
+		<Pieces>CC2_City1_Button</Pieces>
+		<Pieces>CC2_City2_Button</Pieces>
+		<Pieces>CC2_City3_Button</Pieces>
+		<Pieces>CC2_City4_Button</Pieces>
+		<Pieces>CC2_City5_Button</Pieces>
+		<Pieces>CC2_City6_Button</Pieces>
+		<Pieces>CC2_City7_Button</Pieces>
+		<Pieces>CC2_City8_Button</Pieces>
+		<Pieces>CC2_City9_Button</Pieces>
+		<Pieces>CC2_City10_Button</Pieces>
+		<Pieces>CC2_City11_Button</Pieces>
+		<Pieces>CC2_City12_Button</Pieces>
+		<Pieces>CC2_City13_Button</Pieces>
+		<Pieces>CC2_Map1</Pieces>
+		<Pieces>CC2_Map2</Pieces>
+		<Pieces>CC2_Map3</Pieces>
+		<Pieces>CC2_Map4</Pieces>
+		<Pieces>CC2_Map5</Pieces>
+		<Pieces>CC2_Map6</Pieces>
+		<Pieces>CC2_CityText</Pieces>
+	</Screen>
+
+<!-- welcome screen -->
+
+	<STMLbox item = "CC3_WelcomeText">
+		<ScreenID>CC3_WelcomeText</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<TopAnchorOffset>20</TopAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+		<BottomAnchorOffset>20</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Style_Border>true</Style_Border>
+	</STMLbox>
+    
+
+	<Screen item = "CharacterCreationScreen3">
+		<ScreenID>CharacterCreationScreen3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>600</CX>
+			<CY>300</CY>
+		</Size>
+		<Text>Welcome to Everquest</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>CC3_WelcomeText</Pieces>
+	</Screen>
+
+<!-- back button -->
+
+	<Button item = "CC_Back_Button">
+		<ScreenID>CC_Back_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>152</LeftAnchorOffset>
+		<TopAnchorOffset>40</TopAnchorOffset>
+		<RightAnchorOffset>88</RightAnchorOffset>
+		<BottomAnchorOffset>8</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Back</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- next button -->
+
+	<Button item = "CC_Next_Button">
+		<ScreenID>CC_Next_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>72</LeftAnchorOffset>
+		<TopAnchorOffset>40</TopAnchorOffset>
+		<RightAnchorOffset>8</RightAnchorOffset>
+		<BottomAnchorOffset>8</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Next</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- rotate button -->
+
+	<Button item = "CC_Rotate_Button">
+		<ScreenID>Rotate_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>8</LeftAnchorOffset>
+		<TopAnchorOffset>40</TopAnchorOffset>
+		<RightAnchorOffset>72</RightAnchorOffset>
+		<BottomAnchorOffset>8</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Rotate</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+<!-- MAIN WINDOW DEFINITION -->
+
+	<Screen item = "CharacterCreation">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>640</CX>
+			<CY>480</CY>
+		</Size>
+		<Style_Transparent>true</Style_Transparent>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>CC_Back_Button</Pieces>
+		<Pieces>CC_Next_Button</Pieces>
+		<Pieces>CharacterCreationScreen0</Pieces>
+		<Pieces>CharacterCreationScreen1</Pieces>
+		<Pieces>CharacterCreationScreen2</Pieces>
+		<Pieces>CharacterCreationScreen3</Pieces>
+		<Pieces>CC_Rotate_Button</Pieces>
+	</Screen>
+
+</XML>
