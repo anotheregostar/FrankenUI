@@ -1,0 +1,184 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!-- left button -->
+	<Button item = "BOOK_LeftButton">
+		<ScreenID>LeftButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>16</X>
+			<Y>280</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_HSBLeftNormal</Normal>
+			<Pressed>A_HSBLeftPressed</Pressed>
+			<Flyby>A_HSBLeftFlyby</Flyby>
+			<Disabled>A_HSBLeftDisabled</Disabled>
+			<PressedFlyby>A_HSBLeftPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- right button -->
+	<Button item = "BOOK_RightButton">
+		<ScreenID>RightButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>364</X>
+			<Y>280</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<ButtonDrawTemplate>
+			<Normal>A_HSBRightNormal</Normal>
+			<Pressed>A_HSBRightPressed</Pressed>
+			<Flyby>A_HSBRightFlyby</Flyby>
+			<Disabled>A_HSBRightDisabled</Disabled>
+			<PressedFlyby>A_HSBRightPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- done button -->
+	<Button item = "BOOK_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>165</X>
+			<Y>280</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Text>Done</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- left and right page numbers -->
+	<StaticText item ="BOOK_Page0Number">
+		<ScreenID>Page0Number</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>48</X>
+			<Y>280</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>16</CY>
+		</Size>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
+
+	<StaticText item ="BOOK_Page1Number">
+		<ScreenID>Page1Number</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>320</X>
+			<Y>280</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>16</CY>
+		</Size>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</StaticText>
+
+<!-- left and right page areas -->
+	<Editbox item = "BOOK_Page0">
+		<ScreenID>Page0</ScreenID>
+		<DrawTemplate>WDT_InnerLight</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Border>false</Style_Border>
+		<Location>
+			<X>8</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>256</CY>
+		</Size>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<Style_Multiline>true</Style_Multiline>
+	</Editbox>
+
+	<Editbox item = "BOOK_Page1">
+		<ScreenID>Page1</ScreenID>
+		<DrawTemplate>WDT_InnerLight</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Border>false</Style_Border>
+		<Location>
+			<X>204</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>256</CY>
+		</Size>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<Style_Multiline>true</Style_Multiline>
+	</Editbox>
+
+	<Screen item = "BookWindow">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>120</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>400</CX>
+			<CY>342</CY>
+		</Size>
+		<DrawTemplate>WDT_RoundedLight</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>BOOK_LeftButton</Pieces>
+		<Pieces>BOOK_RightButton</Pieces>
+		<Pieces>BOOK_DoneButton</Pieces>
+		<Pieces>BOOK_Page0</Pieces>
+		<Pieces>BOOK_Page1</Pieces>
+		<Pieces>BOOK_Page0Number</Pieces>
+		<Pieces>BOOK_Page1Number</Pieces>
+	</Screen>
+</XML>

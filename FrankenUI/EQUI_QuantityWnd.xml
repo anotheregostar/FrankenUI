@@ -1,0 +1,88 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Slider item = "QTYW_Slider">
+		<ScreenID>QTYW_Slider</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>6</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>16</CY>
+		</Size>
+		<SliderArt>SDT_DefSlider</SliderArt>
+	</Slider>
+
+	<Editbox item = "QTYW_SliderInput">
+		<ScreenID>QTYW_SliderInput</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_Border>true</Style_Border>
+		<Location>
+			<X>26</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>20</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+	</Editbox>
+
+	<Button item = "QTYW_Accept_Button">
+		<ScreenID>QTYW_Accept_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>26</X>
+			<Y>54</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>Accept</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+
+	<Screen item = "QuantityWnd">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>300</X>
+			<Y>10</Y>
+		</Location>
+		<Size>
+			<CX>124</CX>
+			<CY>94</CY>
+		</Size>
+		<Text>Quantity</Text>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>QTYW_Slider</Pieces>
+		<Pieces>QTYW_SliderInput</Pieces>
+		<Pieces>QTYW_Accept_Button</Pieces>
+	</Screen>
+
+</XML>

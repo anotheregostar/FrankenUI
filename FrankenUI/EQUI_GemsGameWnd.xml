@@ -1,0 +1,1078 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Label item ="GGW_Instructions">
+		<ScreenID>GGW_Instructions</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>12</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>232</CX>
+			<CY>32</CY>
+		</Size>
+		<Text>EQ GEMS game is not supported in this User Interface</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+	</Label>
+
+	<Label item ="GGW_Instructions2">
+		<ScreenID>GGW_Instructions2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+	</Label>
+
+	<Label item ="GGW_Instructions3">
+		<ScreenID>GGW_Instructions3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+	</Label>
+
+
+	<Label item ="GGW_Score">
+		<ScreenID>GGW_Score</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_ScoreNbr">
+		<ScreenID>GGW_ScoreNbr</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_Wave">
+		<ScreenID>GGW_Wave</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_WaveNbr">
+		<ScreenID>GGW_WaveNbr</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Text>12345</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_Next">
+		<ScreenID>GGW_Next</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_Special">
+		<ScreenID>GGW_Special</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+<!-- area in which the gems are displayed -->
+	<Screen item = "GGW_GameView">
+		<ScreenID>GGW_GameView</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>120</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+	</Screen>
+
+	<Label item ="GGW_LargeWave">
+		<ScreenID>GGW_LargeWave</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>2</G>
+				<B>2</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_LargeWaveNbr">
+		<ScreenID>GGW_LargeWaveNbr</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>2</G>
+				<B>2</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_Paused">
+		<ScreenID>GGW_Paused</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>200</G>
+				<B>2</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_GameOver">
+		<ScreenID>GGW_GameOver</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>2</R>
+				<G>2</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScores">
+		<ScreenID>GGW_HighScores</ScreenID>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_ScoreHeader">
+		<ScreenID>GGW_ScoreHeader</ScreenID>
+		<Font>4</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_WaveHeader">
+		<ScreenID>GGW_WaveHeader</ScreenID>
+		<Font>4</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName0">
+		<ScreenID>GGW_HighName0</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore0">
+		<ScreenID>GGW_HighScore0</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave0">
+		<ScreenID>GGW_HighWave0</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName1">
+		<ScreenID>GGW_HighName1</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore1">
+		<ScreenID>GGW_HighScore1</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave1">
+		<ScreenID>GGW_HighWave1</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName2">
+		<ScreenID>GGW_HighName2</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+        <TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore2">
+		<ScreenID>GGW_HighScore2</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave2">
+		<ScreenID>GGW_HighWave2</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName3">
+		<ScreenID>GGW_HighName3</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore3">
+		<ScreenID>GGW_HighScore3</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave3">
+		<ScreenID>GGW_HighWave3</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName4">
+		<ScreenID>GGW_HighName4</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore4">
+		<ScreenID>GGW_HighScore4</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave4">
+		<ScreenID>GGW_HighWave4</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName5">
+		<ScreenID>GGW_HighName5</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore5">
+		<ScreenID>GGW_HighScore5</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave5">
+		<ScreenID>GGW_HighWave5</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName6">
+		<ScreenID>GGW_HighName6</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore6">
+		<ScreenID>GGW_HighScore6</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave6">
+		<ScreenID>GGW_HighWave6</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName7">
+		<ScreenID>GGW_HighName7</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore7">
+		<ScreenID>GGW_HighScore7</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave7">
+		<ScreenID>GGW_HighWave7</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName8">
+		<ScreenID>GGW_HighName8</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore8">
+		<ScreenID>GGW_HighScore8</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave8">
+		<ScreenID>GGW_HighWave8</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighName9">
+		<ScreenID>GGW_HighName9</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighScore9">
+		<ScreenID>GGW_HighScore9</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item ="GGW_HighWave9">
+		<ScreenID>GGW_HighWave9</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Button item = "GGW_StartButton">
+		<ScreenID>GGW_StartButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "GGW_DoneButton">
+		<ScreenID>GGW_DoneButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>100</X>
+			<Y>140</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Text>Done</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<!-- THIS DETERMINES WHAT THE GEMS IN THIS MINI GAME LOOK LIKE -->
+	<SpellGem item = "GGW_SpellGem">
+		<ScreenID>GGW_SpellGem</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>5</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>A_RecessedBox</Holder>
+			<Background>A_SpellGemBackground</Background>
+		</SpellGemDrawTemplate>
+	</SpellGem>
+
+	<Screen item = "GemsGameWnd">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>272</CX>
+			<CY>200</CY>
+		</Size>
+		<Text>EQ GEMS</Text>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>GGW_SpellGem</Pieces>
+		<Pieces>GGW_Score</Pieces>
+		<Pieces>GGW_ScoreNbr</Pieces>
+		<Pieces>GGW_Wave</Pieces>
+		<Pieces>GGW_WaveNbr</Pieces>
+		<Pieces>GGW_Next</Pieces>
+		<Pieces>GGW_Special</Pieces>
+		<Pieces>GGW_GameView</Pieces>
+		<Pieces>GGW_LargeWave</Pieces>
+		<Pieces>GGW_LargeWaveNbr</Pieces>
+		<Pieces>GGW_Paused</Pieces>
+		<Pieces>GGW_GameOver</Pieces>
+		<Pieces>GGW_HighScores</Pieces>
+		<Pieces>GGW_ScoreHeader</Pieces>
+		<Pieces>GGW_WaveHeader</Pieces>
+		<Pieces>GGW_HighName0</Pieces>
+		<Pieces>GGW_HighScore0</Pieces>
+		<Pieces>GGW_HighWave0</Pieces>
+		<Pieces>GGW_HighName1</Pieces>
+		<Pieces>GGW_HighScore1</Pieces>
+		<Pieces>GGW_HighWave1</Pieces>
+		<Pieces>GGW_HighName2</Pieces>
+		<Pieces>GGW_HighScore2</Pieces>
+		<Pieces>GGW_HighWave2</Pieces>
+		<Pieces>GGW_HighName3</Pieces>
+		<Pieces>GGW_HighScore3</Pieces>
+		<Pieces>GGW_HighWave3</Pieces>
+		<Pieces>GGW_HighName4</Pieces>
+		<Pieces>GGW_HighScore4</Pieces>
+		<Pieces>GGW_HighWave4</Pieces>
+		<Pieces>GGW_HighName5</Pieces>
+		<Pieces>GGW_HighScore5</Pieces>
+		<Pieces>GGW_HighWave5</Pieces>
+		<Pieces>GGW_HighName6</Pieces>
+		<Pieces>GGW_HighScore6</Pieces>
+		<Pieces>GGW_HighWave6</Pieces>
+		<Pieces>GGW_HighName7</Pieces>
+		<Pieces>GGW_HighScore7</Pieces>
+		<Pieces>GGW_HighWave7</Pieces>
+		<Pieces>GGW_HighName8</Pieces>
+		<Pieces>GGW_HighScore8</Pieces>
+		<Pieces>GGW_HighWave8</Pieces>
+		<Pieces>GGW_HighName9</Pieces>
+		<Pieces>GGW_HighScore9</Pieces>
+		<Pieces>GGW_HighWave9</Pieces>
+		<Pieces>GGW_StartButton</Pieces>
+		<Pieces>GGW_DoneButton</Pieces>
+		<Pieces>GGW_Instructions</Pieces>
+		<Pieces>GGW_Instructions2</Pieces>
+		<Pieces>GGW_Instructions3</Pieces>
+	</Screen>
+
+</XML>

@@ -1,0 +1,370 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!-- label - unused -->
+	<Label item ="TRW_FiltersLabel">
+		<ScreenID>TRW_FiltersLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
+<!-- filter buttons -->
+	<Button item = "TRW_FilterRedButton">
+		<ScreenID>TRW_FilterRedButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>R</Text>
+		<TextColor>
+				<R>240</R>
+				<G>0</G>
+				<B>0</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_TinyBtnNormal</Normal>
+			<Pressed>A_TinyBtnPressed</Pressed>
+			<Flyby>A_TinyBtnFlyby</Flyby>
+			<Disabled>A_TinyBtnDisabled</Disabled>
+			<PressedFlyby>A_TinyBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "TRW_FilterYellowButton">
+		<ScreenID>TRW_FilterYellowButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>27</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Y</Text>
+		<TextColor>
+				<R>240</R>
+				<G>240</G>
+				<B>0</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_TinyBtnNormal</Normal>
+			<Pressed>A_TinyBtnPressed</Pressed>
+			<Flyby>A_TinyBtnFlyby</Flyby>
+			<Disabled>A_TinyBtnDisabled</Disabled>
+			<PressedFlyby>A_TinyBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "TRW_FilterWhiteButton">
+		<ScreenID>TRW_FilterWhiteButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>W</Text>
+		<TextColor>
+				<R>240</R>
+				<G>240</G>
+				<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_TinyBtnNormal</Normal>
+			<Pressed>A_TinyBtnPressed</Pressed>
+			<Flyby>A_TinyBtnFlyby</Flyby>
+			<Disabled>A_TinyBtnDisabled</Disabled>
+			<PressedFlyby>A_TinyBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "TRW_FilterBlueButton">
+		<ScreenID>TRW_FilterBlueButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>73</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>B</Text>
+		<TextColor>
+				<R>0</R>
+				<G>0</G>
+				<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_TinyBtnNormal</Normal>
+			<Pressed>A_TinyBtnPressed</Pressed>
+			<Flyby>A_TinyBtnFlyby</Flyby>
+			<Disabled>A_TinyBtnDisabled</Disabled>
+			<PressedFlyby>A_TinyBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "TRW_FilterLightBlueButton">
+		<ScreenID>TRW_FilterLightBlueButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>96</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>L</Text>
+		<TextColor>
+				<R>0</R>
+				<G>240</G>
+				<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_TinyBtnNormal</Normal>
+			<Pressed>A_TinyBtnPressed</Pressed>
+			<Flyby>A_TinyBtnFlyby</Flyby>
+			<Disabled>A_TinyBtnDisabled</Disabled>
+			<PressedFlyby>A_TinyBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "TRW_FilterGreenButton">
+		<ScreenID>TRW_FilterGreenButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>119</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>G</Text>
+		<TextColor>
+				<R>0</R>
+				<G>240</G>
+				<B>0</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_TinyBtnNormal</Normal>
+			<Pressed>A_TinyBtnPressed</Pressed>
+			<Flyby>A_TinyBtnFlyby</Flyby>
+			<Disabled>A_TinyBtnDisabled</Disabled>
+			<PressedFlyby>A_TinyBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- tracking list itself -->
+
+	<Listbox item = "TRW_TrackingList">
+		<ScreenID>TRW_TrackingList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>19</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>45</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Columns>
+			<Width>148</Width>
+		</Columns>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>true</Style_VScroll>
+	</Listbox>
+
+<!-- track and cancel buttons -->
+
+	<Button item = "TRW_TrackButton">
+		<ScreenID>TRW_TrackButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<TopAnchorOffset>43</TopAnchorOffset>
+		<RightAnchorOffset>68</RightAnchorOffset>
+		<BottomAnchorOffset>27</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Track</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+    
+	<Button item = "TRW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>72</LeftAnchorOffset>
+		<TopAnchorOffset>43</TopAnchorOffset>
+		<RightAnchorOffset>136</RightAnchorOffset>
+		<BottomAnchorOffset>27</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<Text>Cancel</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- players label and list -->
+
+	<Label item ="TRW_TrackPlayersLabel">
+		<ScreenID>TRW_TrackPlayersLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Combobox item = "TRW_TrackPlayersCombobox">
+		<ScreenID>TRW_TrackPlayersCombobox</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>25</TopAnchorOffset>
+		<RightAnchorOffset>60</RightAnchorOffset>
+		<BottomAnchorOffset>1</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<ListHeight>160</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
+	</Combobox>
+
+<!-- sort label and list -->
+
+	<Label item ="TRW_TrackSortLabel">
+		<ScreenID>TRW_TrackSortLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Combobox item = "TRW_TrackSortCombobox">
+		<ScreenID>TRW_TrackSortCombobox</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>64</LeftAnchorOffset>
+		<TopAnchorOffset>25</TopAnchorOffset>
+		<RightAnchorOffset>140</RightAnchorOffset>
+		<BottomAnchorOffset>1</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<ListHeight>160</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
+	</Combobox>
+
+	<Screen item = "TrackingWnd">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>148</CX>
+			<CY>460</CY>
+		</Size>
+		<Text>Track</Text>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>TRW_FiltersLabel</Pieces>
+		<Pieces>TRW_FilterRedButton</Pieces>
+		<Pieces>TRW_FilterYellowButton</Pieces>
+		<Pieces>TRW_FilterWhiteButton</Pieces>
+		<Pieces>TRW_FilterBlueButton</Pieces>
+		<Pieces>TRW_FilterLightBlueButton</Pieces>
+		<Pieces>TRW_FilterGreenButton</Pieces>
+		<Pieces>TRW_TrackingList</Pieces>
+		<Pieces>TRW_TrackButton</Pieces>
+		<Pieces>TRW_TrackSortLabel</Pieces>
+		<Pieces>TRW_TrackPlayersLabel</Pieces>
+		<Pieces>TRW_DoneButton</Pieces>
+		<Pieces>TRW_TrackPlayersCombobox</Pieces>
+		<Pieces>TRW_TrackSortCombobox</Pieces>
+	</Screen>
+
+</XML>

@@ -1,0 +1,381 @@
+<!--Mini-Buffs written by Marcin of Bertoxxulous-->
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+	<!-- Marcin Mini Buffs modified for QQQuarm by Brujoloco -->
+	<!-- Adapted to ShortDurationBuffWindow by Kaz of Former Glory -->
+
+<!-- Begin Buff Icons -->
+
+	<Button item = "SDBW_Buff0_Button">
+		<ScreenID>Buff0</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>13</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>33</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "SDBW_Buff1_Button">
+		<ScreenID>Buff1</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>13</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>33</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "SDBW_Buff2_Button">
+		<ScreenID>Buff2</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>93</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>13</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>33</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "SDBW_Buff3_Button">
+		<ScreenID>Buff3</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>13</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>33</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "SDBW_Buff4_Button">
+		<ScreenID>Buff4</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>48</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>13</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>33</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "SDBW_Buff5_Button">
+		<ScreenID>Buff5</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>93</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>198</CX>
+			<CY>13</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<Normal>RedIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>33</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>12</CX>
+			<CY>12</CY>
+		</DecalSize>
+	</Button>
+
+
+<!-- End Buff Icons -->
+
+<!-- Begin Buff text -->
+
+
+	<Label item ="SDBW_Buff0">
+		<ScreenID>Buff0Label</ScreenID>
+		<EQType>135</EQType>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>344</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="SDBW_Buff1">
+		<ScreenID>Buff1Label</ScreenID>
+		<EQType>136</EQType>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>344</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="SDBW_Buff2">
+		<ScreenID>Buff2Label</ScreenID>
+		<EQType>137</EQType>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>344</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="SDBW_Buff3">
+		<ScreenID>Buff3Label</ScreenID>
+		<EQType>138</EQType>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>42</Y>
+		</Location>
+		<Size>
+			<CX>344</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item ="SDBW_Buff4">
+		<ScreenID>Buff4Label</ScreenID>
+		<EQType>139</EQType>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>56</Y>
+		</Location>
+		<Size>
+			<CX>344</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	
+	<Label item ="SDBW_Buff5">
+		<ScreenID>Buff5Label</ScreenID>
+		<EQType>140</EQType>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>344</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	
+
+<!-- End Buff Text -->
+
+<!-- Main Window Specs -->
+
+
+	<Screen item = "ShortDurationBuffWindow">
+		<Text></Text>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>496</X>
+			<Y>230</Y>
+		</Location>
+		<Size>
+			<CX>210</CX>
+			<CY>100</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>SDBW_Buff0_Button</Pieces>
+		<Pieces>SDBW_Buff1_Button</Pieces>
+		<Pieces>SDBW_Buff2_Button</Pieces>
+		<Pieces>SDBW_Buff3_Button</Pieces>
+		<Pieces>SDBW_Buff4_Button</Pieces>
+		<Pieces>SDBW_Buff5_Button</Pieces>
+
+		<Pieces>SDBW_Buff0</Pieces>
+		<Pieces>SDBW_Buff1</Pieces>
+		<Pieces>SDBW_Buff2</Pieces>
+		<Pieces>SDBW_Buff3</Pieces>
+		<Pieces>SDBW_Buff4</Pieces>
+		<Pieces>SDBW_Buff5</Pieces>
+
+	</Screen>
+</XML>

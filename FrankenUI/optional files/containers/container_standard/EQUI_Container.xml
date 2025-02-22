@@ -1,0 +1,287 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Label item ="Container_Label">
+		<ScreenID>Container_Label</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
+		<Location>
+			<X>0</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>72</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
+<!-- UNUSED -->
+	<Button item = "Container_Icon">
+		<ScreenID>Container_Icon</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<InvSlot item = "ContainerSlot1">
+		<ScreenID>ContainerSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>30</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot2">
+		<ScreenID>ContainerSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>31</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot3">
+		<ScreenID>ContainerSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>32</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot4">
+		<ScreenID>ContainerSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>33</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot5">
+		<ScreenID>ContainerSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>104</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>34</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot6">
+		<ScreenID>ContainerSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>104</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>35</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot7">
+		<ScreenID>ContainerSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>138</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>36</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot8">
+		<ScreenID>ContainerSlot8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>138</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>37</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot9">
+		<ScreenID>ContainerSlot9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>172</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>38</EQType>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot10">
+		<ScreenID>ContainerSlot10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>172</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>39</EQType>
+	</InvSlot>
+
+	<Button item = "Container_Combine">
+		<ScreenID>Container_Combine</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>212</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<Text>Combine</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "Container_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>5</LeftAnchorOffset>
+		<TopAnchorOffset>23</TopAnchorOffset>
+		<RightAnchorOffset>69</RightAnchorOffset>
+		<BottomAnchorOffset>7</BottomAnchorOffset>
+        
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+        
+		<Text>Done</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Screen item = "ContainerWindow">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>350</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>88</CX>
+			<CY>284</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>Container_Label</Pieces>
+		<Pieces>ContainerSlot1</Pieces>
+		<Pieces>ContainerSlot2</Pieces>
+		<Pieces>ContainerSlot3</Pieces>
+		<Pieces>ContainerSlot4</Pieces>
+		<Pieces>ContainerSlot5</Pieces>
+		<Pieces>ContainerSlot6</Pieces>
+		<Pieces>ContainerSlot7</Pieces>
+		<Pieces>ContainerSlot8</Pieces>
+		<Pieces>ContainerSlot9</Pieces>
+		<Pieces>ContainerSlot10</Pieces>
+		<Pieces>Container_Combine</Pieces>
+		<Pieces>Container_DoneButton</Pieces>
+
+<!-- redundant pieces - do not delete -->
+		<Pieces>Container_Icon</Pieces>
+	</Screen>
+
+</XML>

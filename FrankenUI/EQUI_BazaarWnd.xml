@@ -1,0 +1,1907 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<InvSlot item = "BZR_BazaarSlot0">
+		<ScreenID>BZR_BazaarSlot0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7000</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot1">
+		<ScreenID>BZR_BazaarSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7001</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot2">
+		<ScreenID>BZR_BazaarSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>34</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7002</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot3">
+		<ScreenID>BZR_BazaarSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>34</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7003</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot4">
+		<ScreenID>BZR_BazaarSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7004</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot5">
+		<ScreenID>BZR_BazaarSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7005</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot6">
+		<ScreenID>BZR_BazaarSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>102</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7006</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot7">
+		<ScreenID>BZR_BazaarSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>102</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7007</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot8">
+		<ScreenID>BZR_BazaarSlot8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>136</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7008</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot9">
+		<ScreenID>BZR_BazaarSlot9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>136</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7009</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot10">
+		<ScreenID>BZR_BazaarSlot10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7010</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot11">
+		<ScreenID>BZR_BazaarSlot11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7011</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot12">
+		<ScreenID>BZR_BazaarSlot12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>204</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7012</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot13">
+		<ScreenID>BZR_BazaarSlot13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>204</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7013</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot14">
+		<ScreenID>BZR_BazaarSlot14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>238</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7014</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot15">
+		<ScreenID>BZR_BazaarSlot15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>238</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7015</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot16">
+		<ScreenID>BZR_BazaarSlot16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>272</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7016</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot17">
+		<ScreenID>BZR_BazaarSlot17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>272</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7017</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot18">
+		<ScreenID>BZR_BazaarSlot18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>306</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7018</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot19">
+		<ScreenID>BZR_BazaarSlot19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>306</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7019</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot20">
+		<ScreenID>BZR_BazaarSlot20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>340</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7020</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot21">
+		<ScreenID>BZR_BazaarSlot21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>340</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7021</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot22">
+		<ScreenID>BZR_BazaarSlot22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>374</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7022</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot23">
+		<ScreenID>BZR_BazaarSlot23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>374</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7023</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot24">
+		<ScreenID>BZR_BazaarSlot24</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>408</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7024</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot25">
+		<ScreenID>BZR_BazaarSlot25</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>408</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7025</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot26">
+		<ScreenID>BZR_BazaarSlot26</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7026</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot27">
+		<ScreenID>BZR_BazaarSlot27</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7027</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot28">
+		<ScreenID>BZR_BazaarSlot28</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>476</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7028</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot29">
+		<ScreenID>BZR_BazaarSlot29</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>476</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7029</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot30">
+		<ScreenID>BZR_BazaarSlot30</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>510</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7030</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot31">
+		<ScreenID>BZR_BazaarSlot31</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>510</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7031</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot32">
+		<ScreenID>BZR_BazaarSlot32</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>544</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7032</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot33">
+		<ScreenID>BZR_BazaarSlot33</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>544</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7033</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot34">
+		<ScreenID>BZR_BazaarSlot34</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>578</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7034</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot35">
+		<ScreenID>BZR_BazaarSlot35</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>578</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7035</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot36">
+		<ScreenID>BZR_BazaarSlot36</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>612</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7036</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot37">
+		<ScreenID>BZR_BazaarSlot37</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>612</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7037</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot38">
+		<ScreenID>BZR_BazaarSlot38</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>646</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7038</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot39">
+		<ScreenID>BZR_BazaarSlot39</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>646</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7039</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot40">
+		<ScreenID>BZR_BazaarSlot40</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>680</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7040</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot41">
+		<ScreenID>BZR_BazaarSlot41</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>680</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7041</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot42">
+		<ScreenID>BZR_BazaarSlot42</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>714</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7042</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot43">
+		<ScreenID>BZR_BazaarSlot43</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>714</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7043</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot44">
+		<ScreenID>BZR_BazaarSlot44</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>748</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7044</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot45">
+		<ScreenID>BZR_BazaarSlot45</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>748</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7045</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot46">
+		<ScreenID>BZR_BazaarSlot46</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>782</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7046</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot47">
+		<ScreenID>BZR_BazaarSlot47</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>782</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7047</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot48">
+		<ScreenID>BZR_BazaarSlot48</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>816</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7048</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot49">
+		<ScreenID>BZR_BazaarSlot49</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>816</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7049</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot50">
+		<ScreenID>BZR_BazaarSlot50</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>850</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7050</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot51">
+		<ScreenID>BZR_BazaarSlot51</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>850</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7051</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot52">
+		<ScreenID>BZR_BazaarSlot52</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>884</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7052</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot53">
+		<ScreenID>BZR_BazaarSlot53</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>884</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7053</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot54">
+		<ScreenID>BZR_BazaarSlot54</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>918</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7054</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot55">
+		<ScreenID>BZR_BazaarSlot55</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>918</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7055</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot56">
+		<ScreenID>BZR_BazaarSlot56</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>952</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7056</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot57">
+		<ScreenID>BZR_BazaarSlot57</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>952</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7057</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot58">
+		<ScreenID>BZR_BazaarSlot58</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>986</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7058</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot59">
+		<ScreenID>BZR_BazaarSlot59</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>986</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7059</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot60">
+		<ScreenID>BZR_BazaarSlot60</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1020</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7060</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot61">
+		<ScreenID>BZR_BazaarSlot61</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1020</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7061</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot62">
+		<ScreenID>BZR_BazaarSlot62</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1054</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7062</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot63">
+		<ScreenID>BZR_BazaarSlot63</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1054</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7063</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot64">
+		<ScreenID>BZR_BazaarSlot64</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1088</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7064</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot65">
+		<ScreenID>BZR_BazaarSlot65</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1088</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7065</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot66">
+		<ScreenID>BZR_BazaarSlot66</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1122</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7066</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot67">
+		<ScreenID>BZR_BazaarSlot67</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1122</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7067</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot68">
+		<ScreenID>BZR_BazaarSlot68</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1156</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7068</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot69">
+		<ScreenID>BZR_BazaarSlot69</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1156</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7069</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot70">
+		<ScreenID>BZR_BazaarSlot70</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1190</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7070</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot71">
+		<ScreenID>BZR_BazaarSlot71</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1190</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7071</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot72">
+		<ScreenID>BZR_BazaarSlot72</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1224</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7072</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot73">
+		<ScreenID>BZR_BazaarSlot73</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1224</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7073</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot74">
+		<ScreenID>BZR_BazaarSlot74</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1258</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7074</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot75">
+		<ScreenID>BZR_BazaarSlot75</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1258</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7075</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot76">
+		<ScreenID>BZR_BazaarSlot76</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1292</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7076</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot77">
+		<ScreenID>BZR_BazaarSlot77</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1292</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7077</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot78">
+		<ScreenID>BZR_BazaarSlot78</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1326</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7078</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+	<InvSlot item = "BZR_BazaarSlot79">
+		<ScreenID>BZR_BazaarSlot79</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>1326</Y>
+		</Location>
+		<Size>
+			<CX>32</CX>
+			<CY>32</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>7079</EQType>
+		<ItemOffsetX>0</ItemOffsetX>
+		<ItemOffsetY>0</ItemOffsetY>
+	</InvSlot>
+
+<!-- items for sale -->
+	<Label item ="BZW_BazaarSlotsLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>15</CY>
+		</Size>
+		<Text>To Sell</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+	</Label>
+
+	<Screen item = "BZW_BazaarSlotsWnd">
+		<ScreenID>BZW_BazaarSlotsWnd</ScreenID>>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>8</LeftAnchorOffset>
+		<TopAnchorOffset>20</TopAnchorOffset>
+		<RightAnchorOffset>94</RightAnchorOffset>
+		<BottomAnchorOffset>8</BottomAnchorOffset>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Style_VScroll>true</Style_VScroll>
+		<DrawTemplate>WDT_Rounded</DrawTemplate> 
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>BZR_BazaarSlot0</Pieces>
+		<Pieces>BZR_BazaarSlot1</Pieces>
+		<Pieces>BZR_BazaarSlot2</Pieces>
+		<Pieces>BZR_BazaarSlot3</Pieces>
+		<Pieces>BZR_BazaarSlot4</Pieces>
+		<Pieces>BZR_BazaarSlot5</Pieces>
+		<Pieces>BZR_BazaarSlot6</Pieces>
+		<Pieces>BZR_BazaarSlot7</Pieces>
+		<Pieces>BZR_BazaarSlot8</Pieces>
+		<Pieces>BZR_BazaarSlot9</Pieces>
+		<Pieces>BZR_BazaarSlot10</Pieces>
+		<Pieces>BZR_BazaarSlot11</Pieces>
+		<Pieces>BZR_BazaarSlot12</Pieces>
+		<Pieces>BZR_BazaarSlot13</Pieces>
+		<Pieces>BZR_BazaarSlot14</Pieces>
+		<Pieces>BZR_BazaarSlot15</Pieces>
+		<Pieces>BZR_BazaarSlot16</Pieces>
+		<Pieces>BZR_BazaarSlot17</Pieces>
+		<Pieces>BZR_BazaarSlot18</Pieces>
+		<Pieces>BZR_BazaarSlot19</Pieces>
+		<Pieces>BZR_BazaarSlot20</Pieces>
+		<Pieces>BZR_BazaarSlot21</Pieces>
+		<Pieces>BZR_BazaarSlot22</Pieces>
+		<Pieces>BZR_BazaarSlot23</Pieces>
+		<Pieces>BZR_BazaarSlot24</Pieces>
+		<Pieces>BZR_BazaarSlot25</Pieces>
+		<Pieces>BZR_BazaarSlot26</Pieces>
+		<Pieces>BZR_BazaarSlot27</Pieces>
+		<Pieces>BZR_BazaarSlot28</Pieces>
+		<Pieces>BZR_BazaarSlot29</Pieces>
+		<Pieces>BZR_BazaarSlot30</Pieces>
+		<Pieces>BZR_BazaarSlot31</Pieces>
+		<Pieces>BZR_BazaarSlot32</Pieces>
+		<Pieces>BZR_BazaarSlot33</Pieces>
+		<Pieces>BZR_BazaarSlot34</Pieces>
+		<Pieces>BZR_BazaarSlot35</Pieces>
+		<Pieces>BZR_BazaarSlot36</Pieces>
+		<Pieces>BZR_BazaarSlot37</Pieces>
+		<Pieces>BZR_BazaarSlot38</Pieces>
+		<Pieces>BZR_BazaarSlot39</Pieces>
+		<Pieces>BZR_BazaarSlot40</Pieces>
+		<Pieces>BZR_BazaarSlot41</Pieces>
+		<Pieces>BZR_BazaarSlot42</Pieces>
+		<Pieces>BZR_BazaarSlot43</Pieces>
+		<Pieces>BZR_BazaarSlot44</Pieces>
+		<Pieces>BZR_BazaarSlot45</Pieces>
+		<Pieces>BZR_BazaarSlot46</Pieces>
+		<Pieces>BZR_BazaarSlot47</Pieces>
+		<Pieces>BZR_BazaarSlot48</Pieces>
+		<Pieces>BZR_BazaarSlot49</Pieces>
+		<Pieces>BZR_BazaarSlot50</Pieces>
+		<Pieces>BZR_BazaarSlot51</Pieces>
+		<Pieces>BZR_BazaarSlot52</Pieces>
+		<Pieces>BZR_BazaarSlot53</Pieces>
+		<Pieces>BZR_BazaarSlot54</Pieces>
+		<Pieces>BZR_BazaarSlot55</Pieces>
+		<Pieces>BZR_BazaarSlot56</Pieces>
+		<Pieces>BZR_BazaarSlot57</Pieces>
+		<Pieces>BZR_BazaarSlot58</Pieces>
+		<Pieces>BZR_BazaarSlot59</Pieces>
+		<Pieces>BZR_BazaarSlot60</Pieces>
+		<Pieces>BZR_BazaarSlot61</Pieces>
+		<Pieces>BZR_BazaarSlot62</Pieces>
+		<Pieces>BZR_BazaarSlot63</Pieces>
+		<Pieces>BZR_BazaarSlot64</Pieces>
+		<Pieces>BZR_BazaarSlot65</Pieces>
+		<Pieces>BZR_BazaarSlot66</Pieces>
+		<Pieces>BZR_BazaarSlot67</Pieces>
+		<Pieces>BZR_BazaarSlot68</Pieces>
+		<Pieces>BZR_BazaarSlot69</Pieces>
+		<Pieces>BZR_BazaarSlot70</Pieces>
+		<Pieces>BZR_BazaarSlot71</Pieces>
+		<Pieces>BZR_BazaarSlot72</Pieces>
+		<Pieces>BZR_BazaarSlot73</Pieces>
+		<Pieces>BZR_BazaarSlot74</Pieces>
+		<Pieces>BZR_BazaarSlot75</Pieces>
+		<Pieces>BZR_BazaarSlot76</Pieces>
+		<Pieces>BZR_BazaarSlot77</Pieces>
+		<Pieces>BZR_BazaarSlot78</Pieces>
+		<Pieces>BZR_BazaarSlot79</Pieces>
+	</Screen>
+    
+<!-- price setting -->
+	<Label item ="BZW_BazaarPriceLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>102</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>15</CY>
+		</Size>
+		<Text>Set Price</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+	</Label>
+
+<!-- coin slots -->
+    <StaticAnimation item= "BZW_PlatCoin">
+		<Location>
+			<X>106</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Animation>A_PlatinumCoin</Animation>
+	</StaticAnimation>
+
+	<Button item = "BZW_Money0">
+		<ScreenID>BZW_Money0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Platinum</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnBank</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+    <StaticAnimation item= "BZW_GoldCoin">
+		<Location>
+			<X>106</X>
+			<Y>64</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Animation>A_GoldCoin</Animation>
+	</StaticAnimation>
+
+	<Button item = "BZW_Money1">
+		<ScreenID>BZW_Money1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>56</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Gold</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnBank</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+    <StaticAnimation item= "BZW_SilverCoin">
+		<Location>
+			<X>106</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Animation>A_SilverCoin</Animation>
+	</StaticAnimation>
+
+	<Button item = "BZW_Money2">
+		<ScreenID>BZW_Money2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>92</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Silver</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnBank</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+    <StaticAnimation item= "BZW_CopperCoin">
+		<Location>
+			<X>106</X>
+			<Y>136</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Animation>A_CopperCoin</Animation>
+	</StaticAnimation>
+
+	<Button item = "BZW_Money3">
+		<ScreenID>BZW_Money3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Copper</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnBank</Normal>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- set and clear price -->
+	<Button item = "BZW_SetPrice_Button">
+		<ScreenID>BZW_SetPrice_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>168</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<TooltipReference>Set price of current item.</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>Set</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "BZW_Clear_Button">
+		<ScreenID>BZW_Clear_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>188</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<TooltipReference>Clear  price of  current item.</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>Clear</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- add and remove buttons -->
+	<Button item = "BZW_Add_Button">
+		<ScreenID>BZW_Add_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>208</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<TooltipReference>Add item to your Bazaar list.</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>Add</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "BZW_Remove_Button">
+		<ScreenID>BZW_Remove_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>228</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<TooltipReference>Remove item from your Bazaar list.</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>Remove</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- list all items -->
+
+	<Button item = "BZW_List_Button">
+		<ScreenID>BZW_List_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>248</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>16</CY>
+		</Size>
+		<TooltipReference>List all items available for sale.</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>List Items</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_ThinBtnNormal</Normal>
+			<Pressed>A_ThinBtnPressed</Pressed>
+			<Flyby>A_ThinBtnFlyby</Flyby>
+			<Disabled>A_ThinBtnDisabled</Disabled>
+			<PressedFlyby>A_ThinBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+        
+<!-- begin and end trading -->
+	<Button item = "BZW_Start_Button">
+		<ScreenID>BZW_Start_Button</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>126</X>
+			<Y>268</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Add all priced items to the Bazaar list and become a Trader.</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>Trader</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "BZW_End_Button">
+		<ScreenID>BZW_End_Button</ScreenID>
+		<Location>
+			<X>126</X>
+			<Y>268</Y>
+		</Location>
+		<Size>
+			<CX>64</CX>
+			<CY>32</CY>
+		</Size>
+		<TooltipReference>Remove all items from the Bazaar list and cease Trading.</TooltipReference>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<Text>End Trader</Text>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+<!-- Stock list -->
+	<Label item ="BZW_BazaarTextLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>200</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>150</CX>
+			<CY>15</CY>
+		</Size>
+		<Text>Items Listed for Sale</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+	</Label>
+
+   	<STMLbox item = "BZW_BazaarText">
+		<ScreenID>BZW_BazaarText</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>true</Style_VScroll>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>200</LeftAnchorOffset>
+		<TopAnchorOffset>20</TopAnchorOffset>
+		<RightAnchorOffset>8</RightAnchorOffset>
+		<BottomAnchorOffset>8</BottomAnchorOffset>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Border>true</Style_Border>
+	</STMLbox>
+
+	<Screen item = "BazaarWnd">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>550</CX>
+			<CY>324</CY>
+		</Size>
+		<Text>Bazaar Vendor</Text>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>BZW_BazaarSlotsLabel</Pieces>
+		<Pieces>BZW_BazaarSlotsWnd</Pieces>
+		<Pieces>BZW_BazaarPriceLabel</Pieces>
+		<Pieces>BZW_PlatCoin</Pieces>
+		<Pieces>BZW_GoldCoin</Pieces>
+		<Pieces>BZW_SilverCoin</Pieces>
+		<Pieces>BZW_CopperCoin</Pieces>
+		<Pieces>BZW_Money0</Pieces>
+		<Pieces>BZW_Money1</Pieces>
+		<Pieces>BZW_Money2</Pieces>
+		<Pieces>BZW_Money3</Pieces>
+		<Pieces>BZW_SetPrice_Button</Pieces>
+		<Pieces>BZW_Clear_Button</Pieces>
+		<Pieces>BZW_End_Button</Pieces>
+		<Pieces>BZW_Start_Button</Pieces>
+		<Pieces>BZW_List_Button</Pieces>
+		<Pieces>BZW_Remove_Button</Pieces>
+		<Pieces>BZW_Add_Button</Pieces>
+		<Pieces>BZW_BazaarTextLabel</Pieces>
+		<Pieces>BZW_BazaarText</Pieces>
+	</Screen>
+
+</XML>
