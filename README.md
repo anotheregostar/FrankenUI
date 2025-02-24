@@ -37,7 +37,16 @@ FrankenUI is a custom user interface for EQMAC based Everquest emulators.
 - Small spellbook window
 - 5 customizable hotkeys attached to the hotbutton window
 - 5 customizable inventory slots within a clicky window (modified help window)
+
+### Special Thanks:
+Nillipuss has been invaluable in helping me create and maintain this UI - Most of the special features in this UI are thanks to them either developing them in the first place or helping me to adapt them to work with this UI's Power of 2 base.
+NillipussUI is highly recommended and you can find the 1080p version ![here](https://github.com/NilliP/NillipussUI_1080p) and the 1440p version ![here](https://github.com/NilliP/NillipussUI_1440p).
+
+Calmethar was also very helpful when I started putting this UI together, particularly with the smaller buff window and spellbook. Their UI can be found ![here](https://www.eqinterface.com/downloads/fileinfo.php?id=6959).
+
+Special thanks as well to Salty and the rest of the Zeal team for adding all of these great QoL features to EQMac based UIs!
   
 ## Screenshots
 ![FrankenUI spellbook](https://github.com/user-attachments/assets/81c7f838-b5c1-4853-be79-3824c588fff7)
 ![FrankenUI hotbutton and socials](https://github.com/user-attachments/assets/085376a1-dd4a-4ad9-800e-6e4b45bcd97f)
+![image](https://github.com/user-attachments/assets/8f6276f6-f464-4ce2-9bc0-f25c86075cd6)
